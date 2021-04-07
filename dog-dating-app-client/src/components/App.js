@@ -1,12 +1,12 @@
 import React from "react";
 
-import About from "./About";
+import Home from "./Home";
 import Login from "./Login";
 
 const App = () => {
   return (
     <div>
-      <About />
+      <Home />
       <Login />
     </div>
   );
