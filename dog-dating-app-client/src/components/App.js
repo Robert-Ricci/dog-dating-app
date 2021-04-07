@@ -1,13 +1,21 @@
 import React from "react";
 
-import About from "./About";
+import Home from "./Home";
 import Login from "./Login";
 
 const App = () => {
   return (
     <div>
-      <About />
+      <Home />
       <Login />
+      <h4>
+        {" "}
+        Or <a href="#">Sign Up Here</a>
+      </h4>
+      <h4>
+        {" "}
+        <a href="#">Forgot your password?</a>
+      </h4>
     </div>
   );
 };
