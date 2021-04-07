@@ -15,7 +15,12 @@ const Home = () => {
           }}
         />
       </ul>
-      <h2 style={{ color: "#1b5a7a", paddingTop: "15px" }}>Spark'd</h2>
+      <h2 style={{ color: "#1b5a7a", paddingTop: "26px" }}>Spark'd</h2>
+      <br />
+      <h1> Welcome! </h1>
+      <h2>Where Pets Come to Meet Their Mate</h2>
+      <br />
+      <h3>Sign Up Below</h3>
     </div>
   );
 };
