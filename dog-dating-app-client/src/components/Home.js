@@ -17,10 +17,10 @@ const Home = () => {
       </ul>
       <h2 style={{ color: "#1b5a7a", paddingTop: "26px" }}>Spark'd</h2>
       <br />
-      <h1> Welcome! </h1>
-      <h2>Where Pets Come to Meet Their Mate</h2>
+      <h1 style={{ color: "#1aa59a" }}> Welcome to Spark'd! </h1>
+      <h2 style={{ color: "#1b5a7a" }}>Where Pets Come to Meet Their Mate</h2>
       <br />
-      <h2>Log In </h2>
+      <h2 style={{ color: "#1aa59a" }}>Log In </h2>
     </div>
   );
 };
