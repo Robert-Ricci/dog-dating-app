@@ -8,6 +8,10 @@ const App = () => {
     <div>
       <Home />
       <Login />
+      <h4>
+        {" "}
+        Or <a href="#">Sign Up Here</a>
+      </h4>
     </div>
   );
 };

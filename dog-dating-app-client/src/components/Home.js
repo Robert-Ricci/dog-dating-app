@@ -20,7 +20,7 @@ const Home = () => {
       <h1> Welcome! </h1>
       <h2>Where Pets Come to Meet Their Mate</h2>
       <br />
-      <h3>Sign Up Below</h3>
+      <h2>Log In </h2>
     </div>
   );
 };
