@@ -4,17 +4,16 @@ import logo from "../images/logo.jpg";
 const Home = () => {
   return (
     <div>
-      <ul>
-        <img
-          alt={logo}
-          src={logo}
-          style={{
-            float: "left",
-            height: "60px",
-            paddingTop: "10px",
-          }}
-        />
-      </ul>
+      <img
+        alt={logo}
+        src={logo}
+        style={{
+          float: "left",
+          height: "60px",
+          paddingTop: "10px",
+        }}
+      />
+
       <h2 style={{ color: "#1b5a7a", paddingTop: "26px" }}>Spark'd</h2>
       <br />
       <h1 style={{ color: "#1aa59a" }}> Welcome to Spark'd! </h1>
