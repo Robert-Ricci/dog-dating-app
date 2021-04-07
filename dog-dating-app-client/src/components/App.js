@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Home />
       <Login />
-<<<<<<< HEAD
+
       <h4>
         {" "}
         Or <a href="#">Sign Up Here</a>
@@ -18,9 +18,9 @@ const App = () => {
         {" "}
         <a href="#">Forgot your password?</a>
       </h4>
-=======
+
      
->>>>>>> ricci
+
     </div>
   );
 };
