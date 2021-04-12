@@ -26,7 +26,7 @@ class SignUp extends Component {
                     <label>Password:</label><br />
                     <input type='password' value={this.state.name} onChange={event => this.handleChange(event)} name='password' />
                     <br />
-
+                    <input type="submit"  value="submit" />
                 </form>
             </div>
         );
