@@ -11,6 +11,6 @@ export const addPet = pet => {
             body: JSON.stringify(pet)
         })
         .then(resp => resp.json())
-        .then(pet => console.log("new pet added!", pet))
+        .then(pet => dispatch({ type: 'ADD_PET', pet }))
     }
 }
