@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3090/pets/"
+const BASE_URL = "http://localhost:3000/pets/"
 
 export const addPet = pet => {
     return dispatch => {

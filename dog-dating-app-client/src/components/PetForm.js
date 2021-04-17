@@ -5,9 +5,32 @@ import { addPet } from '../actions/pets'
 
 class PetForm extends Component {
 
+  state = {
+    name: "",
+    age: "",
+    location: "",
+    biography: "",
+    breed: "",
+    likes: "",
+    dislikes: "",
+    temperament: ""
+  }
+
   handleOnSubmit = event => {
     event.preventDefault()
     console.log("handleOnSubmit submitted!")
+    const pet = {
+      name: this.state.name,
+      age: this.state.age,
+      location: this.state.location,
+      biography: this.state.biography,
+      breed: this.state.breed,
+      likes: this.state.likes,
+      dislikes: this.state.dislikes,
+      temperament: this.state.temperament
+    }
+
+    this.props.addPet(pet)
   }
 
   render() {

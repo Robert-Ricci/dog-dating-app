@@ -8,8 +8,8 @@ import PetForm from './PetForm'
 const App = () => {
   return (
     <div>
-      {/* <Home />
-      <Login /> */}
+      <Home />
+      <Login />
       <h4>
         {" "}
         Or <a href="#">Sign Up Here</a>
